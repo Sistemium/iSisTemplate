@@ -10,7 +10,6 @@
 		03E0124B49F4F46928602305 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9639524B0D712DC31B0658 /* libPods.a */; };
 		2C94BFCF1CF1ACB8004476D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94BFCE1CF1ACB8004476D8 /* main.m */; };
 		2C94BFDA1CF1ACB8004476D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C94BFD91CF1ACB8004476D8 /* Assets.xcassets */; };
-		2C94BFDD1CF1ACB8004476D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94BFDB1CF1ACB8004476D8 /* LaunchScreen.storyboard */; };
 		2C94BFE81CF1ACB8004476D8 /* iSisTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94BFE71CF1ACB8004476D8 /* iSisTemplateTests.m */; };
 		2C94BFF31CF1ACB8004476D8 /* iSisTemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94BFF21CF1ACB8004476D8 /* iSisTemplateUITests.m */; };
 		2C94C0D91CF1B1BB004476D8 /* STMBarCodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0041CF1B1BA004476D8 /* STMBarCodeScanner.m */; };
@@ -254,7 +253,6 @@
 		2C94BFCA1CF1ACB8004476D8 /* iSisTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSisTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C94BFCE1CF1ACB8004476D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C94BFD91CF1ACB8004476D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C94BFDC1CF1ACB8004476D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C94BFDE1CF1ACB8004476D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C94BFE31CF1ACB8004476D8 /* iSisTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSisTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C94BFE71CF1ACB8004476D8 /* iSisTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSisTemplateTests.m; sourceTree = "<group>"; };
@@ -710,7 +708,6 @@
 			children = (
 				2CD5BEFB1CF1DEE1006E1E36 /* iSistemium-Prefix.pch */,
 				2C94BFD91CF1ACB8004476D8 /* Assets.xcassets */,
-				2C94BFDB1CF1ACB8004476D8 /* LaunchScreen.storyboard */,
 				2C94BFDE1CF1ACB8004476D8 /* Info.plist */,
 				2C94BFCE1CF1ACB8004476D8 /* main.m */,
 			);
@@ -1524,7 +1521,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C94BFDD1CF1ACB8004476D8 /* LaunchScreen.storyboard in Resources */,
 				2C94C2011CF1B308004476D8 /* Download From Cloud-100.png in Resources */,
 				2C94C2411CF1B3BA004476D8 /* STMCustom1CVHeader.xib in Resources */,
 				2C94C1F41CF1B308004476D8 /* alphabetical_sorting_2.png in Resources */,
@@ -1849,17 +1845,6 @@
 			targetProxy = 2C94BFEF1CF1ACB8004476D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2C94BFDB1CF1ACB8004476D8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C94BFDC1CF1ACB8004476D8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2C94BFF51CF1ACB8004476D8 /* Debug */ = {
