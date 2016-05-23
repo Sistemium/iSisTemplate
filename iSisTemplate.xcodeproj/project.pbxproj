@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03E0124B49F4F46928602305 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9639524B0D712DC31B0658 /* libPods.a */; };
+		2C2379B21CF2FFB4002AF3F5 /* STMObjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */; };
 		2C40F7801CF2037A00231E01 /* STMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F77F1CF2037A00231E01 /* STMController.m */; };
 		2C40F78B1CF203A100231E01 /* STMAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7821CF203A100231E01 /* STMAuthController.m */; };
 		2C40F78D1CF203A100231E01 /* STMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7861CF203A100231E01 /* STMSession.m */; };
@@ -256,6 +257,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C2379B01CF2FFB4002AF3F5 /* STMObjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMObjectsController.h; sourceTree = "<group>"; };
+		2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMObjectsController.m; sourceTree = "<group>"; };
 		2C40F77E1CF2037A00231E01 /* STMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMController.h; sourceTree = "<group>"; };
 		2C40F77F1CF2037A00231E01 /* STMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMController.m; sourceTree = "<group>"; };
 		2C40F7811CF203A100231E01 /* STMAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMAuthController.h; sourceTree = "<group>"; };
@@ -1389,6 +1392,8 @@
 			children = (
 				2C40F77E1CF2037A00231E01 /* STMController.h */,
 				2C40F77F1CF2037A00231E01 /* STMController.m */,
+				2C2379B01CF2FFB4002AF3F5 /* STMObjectsController.h */,
+				2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */,
 			);
 			path = EntityControllers;
 			sourceTree = "<group>";
@@ -1783,6 +1788,7 @@
 				2C94C1B71CF1B2D8004476D8 /* SocketEngine.swift in Sources */,
 				2C94C1181CF1B1BB004476D8 /* STMSpinnerView.m in Sources */,
 				2C94C1911CF1B1F3004476D8 /* STMMessage+CoreDataProperties.m in Sources */,
+				2C2379B21CF2FFB4002AF3F5 /* STMObjectsController.m in Sources */,
 				2C94C1A11CF1B2A6004476D8 /* iSisTemplate.xcdatamodel in Sources */,
 				2C94C1171CF1B1BB004476D8 /* STMSegmentedControl.m in Sources */,
 				2C94C18E1CF1B1F3004476D8 /* STMLocation.m in Sources */,
