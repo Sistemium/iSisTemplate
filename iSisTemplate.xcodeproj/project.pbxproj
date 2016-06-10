@@ -260,6 +260,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C1444241D0B218000B8E386 /* STMCheckinDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMCheckinDelegate.h; sourceTree = "<group>"; };
 		2C2379B01CF2FFB4002AF3F5 /* STMObjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMObjectsController.h; sourceTree = "<group>"; };
 		2C2379B11CF2FFB4002AF3F5 /* STMObjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMObjectsController.m; sourceTree = "<group>"; };
 		2C40F77E1CF2037A00231E01 /* STMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMController.h; sourceTree = "<group>"; };
@@ -884,6 +885,7 @@
 			isa = PBXGroup;
 			children = (
 				2C94C0471CF1B1BA004476D8 /* STMBarCodeScannerDelegate.h */,
+				2C1444241D0B218000B8E386 /* STMCheckinDelegate.h */,
 				2C94C0481CF1B1BA004476D8 /* STMEntitiesSubscribable.h */,
 				2C94C0491CF1B1BA004476D8 /* STMImagePickerOwnerProtocol.h */,
 				2C94C04A1CF1B1BA004476D8 /* STMRequestAuthenticatable.h */,
